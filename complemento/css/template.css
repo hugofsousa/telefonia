@@ -1,0 +1,40 @@
+.telefone{
+	background-color: #287D99;
+	width: 17%; 
+	margin-top:20px;
+	border: 1px solid black;
+	border-radius: 7px;
+	position: relative;
+	z-index: -1;
+}
+
+.botao_telefone{
+	font-weight: bold;
+	width: 33%;
+	position: relative;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	float: left;
+}
+
+.botao_telefone:hover{
+	background-color: #1B5B70;
+	border-radius: 3px;
+	color: white;
+}
+
+.disabled:hover{
+	background-color: #287D99;
+}
+
+#input_show{
+	background-color: #1B5B70;	
+	text-align: center;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	color: #D9D9D9;
+}
